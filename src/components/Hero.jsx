@@ -98,11 +98,11 @@ const Hero = () => {
                                 <div className="flex items-center gap-4 bg-white/10 backdrop-blur-xl border border-white/20 px-6 py-4 rounded-2xl shadow-lg security-card">
 
                                     {/* Green Icon Box */}
-                                    <div className="w-10 h-10 bg-green-600/20 rounded-xl flex items-center justify-center shadow-green-500/40 shadow-md">
+                                    <div className="w-12 h-12 bg-green-600/20 rounded-xl flex items-center justify-center shadow-green-500/40 shadow-md">
                                         <img
                                             src={securityIcon}
                                             alt="icon"
-                                            className="w-6 h-6 object-contain"
+                                            className="w-full h-full object-contain"
                                         />
                                     </div>
 
