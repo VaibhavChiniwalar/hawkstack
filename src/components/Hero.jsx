@@ -5,6 +5,7 @@ import FloatingIcon from './FloatingIcon';
 import rhcsaBadge from '../assets/rhcsa-badge.png';
 import gradientCubes from '../assets/gradient-cubes.png';
 import cloud from '../assets/cloud.png';
+import securityIcon from '../assets/security.png';
 
 const Hero = () => {
     return (
@@ -98,8 +99,13 @@ const Hero = () => {
 
                                     {/* Green Icon Box */}
                                     <div className="w-10 h-10 bg-green-600/20 rounded-xl flex items-center justify-center shadow-green-500/40 shadow-md">
-                                        <div className="w-6 h-6 bg-white rounded-md"></div>
+                                        <img
+                                            src={securityIcon}
+                                            alt="icon"
+                                            className="w-6 h-6 object-contain"
+                                        />
                                     </div>
+
 
                                     {/* Text Section */}
                                     <div className="flex flex-col">
